@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+}
+header{
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #56DECF;
+}
+
+li {
+    float: left;
+    border-right: 2px solid  #FFF1E2;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#name{
+  float: right;
+  border-left: 2px solid  #FFF1E2;
+}
+
+li a:hover:not(.active) {
+    background-color: #008173;
+    color: white;
+}
+
+li a.active {
+    background-color: #4CAF50;
+}
+
+.main-page{
+    background-color: #02D3BA;
+    height: 100vh;
+
+
+  }
+
+.main-page img{
+    position: relative;
+    background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 0 auto;
+     max-height: 100vh;
+     max-width: 100%;
+    
+    }
+    .H {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 20%;
+      right: 35%;
+      text-align: center;
+    }
+    .H img{
+      border-radius: 50%;
+      border-radius: 1px white;
+    }
+    .H span{
+      padding-top: 10px;
+      font-family: 'Oswald','Oleo Script', cursive;
+      font-size: 40px;
+      color: white;
+    
+    }
+    .Work {
+      height: 100vh;
+      width: 100%;
+    }
+    h2{
+      text-align: center;
+      font-family: 'Oswald' ,'Oleo Script', cursive;
+      font-size: 70px;
+      margin: 0;
+      color: white;
+      text-shadow: 2px 2px black;
+    
+    }
+    
+
+
+
+.about{
+      background-color: #008173;
+      height: 100vh;
+      color: white;      
+}
+
+h3{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'exo';
+    color: #FFF1E2;
+}
+.email {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'exo';
+       color: #e0e0e0;  
+}
+.des{
+   font-size: 1.2rem;
+   width: 90%;
+   padding-left: 5%;
+   color: #e0e0e0;  
+}
+
+.top-three{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.game{
+    font-size: 2rem;
+    padding: 10px;
+    background-color:white;
+    border: solid 5px black;
+    background-color: white;
+    box-shadow: -5px 10px black;
+
+}
+.game:hover, .frontera:hover,.journey:hover, .world:hover, .web:hover{
+    background-color: #DFB78C;
+    color: white;
+    
+}
+.frontera{
+    font-size: 2rem;
+    margin-left: 4rem;
+    padding: 10px;
+    background-color:white;
+    border: solid 5px black;
+    background-color: white;
+    box-shadow: -5px 10px black;
+    
+}
+
+.journey{
+    font-size: 2rem;
+    margin-left: 4rem;
+    padding: 10px;
+    background-color:white;
+    border: solid 5px black;
+    background-color: white;
+    box-shadow: -5px 10px black;
+
+}
+.world, .web{
+    text-align: center;
+    font-size: 2rem;
+    border: solid 5px black;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: white;
+    box-shadow: -5px 10px black;
+    text-transform: uppercase;
+  
+}
+.game-design{
+    height: 100vh;
+    background-color: #008173;
+    
+}
+.content{
+  display: flex;
+  flex-direction: row;
+    
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border: solid 5px black;
+    background-color: #DFB78C;
+    box-shadow: -5px 10px black;
+}
+.purpose{
+    width: 20%;
+    padding-left: 10px;
+    color: white;
+    border-right: solid 5px black;
+   
+}
+.purpose p{
+    font-size: 1.2rem;
+}
+.purpose img{
+    padding-left: 20%;
+}
+.process{
+    width: 20%;
+    border-right: solid 5px black;
+}
+.process img{
+    width: 100%;
+}
+p{
+    margin: 0;
+    padding-top: 5px;
+    color: white;
+}
+h6{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    padding-top: 0.5rem;
+    color: white;
+}
+.play{
+    width: 30%;
+    border-right: solid 5px black;
+}
+.row-play{
+    display: flex;
+    flex-direction: row;
+  
+}
+.row-play img{
+    width: 49%;
+    height: 49%;
+    border: solid 2px black;
+
+}
+.Final{
+    width: 30%;
+}
+.Final video{
+    padding-left: 5px;
+}
+h5{
+    text-align: center;
+    color: white;
+}
+.frontera-content, .world-content,.journey-content3{
+    height: 100vh;
+    background-color: #02D3BA;
+}
+.journey-content{
+        height: 100vh;
+        background-color: #008173;
+
+}
+.web-content{    height: 100vh;
+    background-color: #166926;
+}
+.journey-content2{
+    height: 100vh;
+    background-color:#166926;
+}
+
+
+/*Our journey*/
+.journey-container{
+    display: flex;
+    flex-direction: row;
+}
+.topic{
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    color:#FFF1E2;
+    text-align: center;
+}
+.why{
+    width: 30%;
+    height: 100%;;
+    border-right:solid 5px  black;
+}
+.why p,q{
+    padding: 10px 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+.journey-process,.journey-background{
+    width: 35%;
+    
+    border-right: solid 5px black;
+}
+.journey-process img,.journey-background img{
+    width: 100%;
+}
+.journey-user{
+    width: 50%;
+    height: 100%;
+    border-right: solid 5px black;
+
+}
+.journey-user img, .journey-web img{
+    width: 100%;
+}
+
+.journey-web{
+    width: 50%;
+    height: 100%;
+    border-right: solid 5px black;
+}
+.journey-30video,.journey-longvideo{
+    width: 50%;
+}
+.journey-30video video{
+    margin-left: 10px;
+}
+
+.web-container{
+    width: 90%;
+    margin-left: 5%; 
+    margin-top: 0.8%;
+ 
+}
+.web-container img{
+    width: 85%;
+    margin-left: 10%;
+   
+}
+
+
+footer {
+    text-align: center;
+    background-color: #56DECF;
+    height: 3rem;
+    font-size: 2rem;
+    color: white;
+    border-top: solid 5px #FFF1E2;
+}
+
+
+/* Button */
+.button {
+    background-color: #FFF1E2; /* Green */
+    border: none;
+    color: black;
+    padding: 32px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-left: 35%;
+    margin-top: 5%;
+    border: solid 5px black;
+}
+.button a{
+    font-size: 2rem;
+    font-family: Oswald, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Test images */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
